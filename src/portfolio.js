@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  username: "KI LAB",
+  title: `KNOWLEDGE
+        INTELLIGENCE
+        LAB @ HBNU`,
+  subTitle: "Welcome! We explore world knowledge, investigating learning methods to encode and generate meaningful information, and build Natural Language Processing (NLP) systems that apply this approach.",
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/hbnu-kilab",
+  // linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "parkce@edu.hanbat.ac.kr",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -369,9 +369,9 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("© 2024. Knowledge Intelligence Lab. All rights reserved."),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "© 2024. Knowledge Intelligence Lab. All rights reserved.KILab., Room 611, N4 Industrial Information Building, HBNU, 125 Dongseo-daero Yuseong-gu, Daejeon 34158, South Korea 컴퓨터공학과, 국립 한밭대학교, 유성구, 대전 34158, 대한민국",
   number: "+92-0000000000",
   email_address: "saadpasta70@gmail.com"
 };

@@ -19,13 +19,14 @@ export default function Greeting() {
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
+            <div style={{textAlign: "center"}}>
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+                // style={{ letterSpacing: "0.1em" }}
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                {/* <span className="wave-emoji">{emoji("👋")}</span> */}
               </h1>
               <p
                 className={
@@ -36,23 +37,25 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
-              <div id="resume" className="empty-div"></div>
-              <SocialMedia />
-              <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
-                )}
+              <div style={{textAlign: "center"}}>
+                <div id="resume" className="empty-div"></div>
+                <SocialMedia />
+                <div className="button-greeting-div">
+                  <Button text="Contact me" href="#contact" />
+                  {greeting.resumeLink && (
+                    <a
+                      href={require("./resume.pdf")}
+                      download="Resume.pdf"
+                      className="download-link-button"
+                    >
+                      <Button text="Download my resume" />
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
+          {/* <div className="greeting-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
@@ -61,7 +64,7 @@ export default function Greeting() {
                 src={require("../../assets/images/manOnTable.svg")}
               ></img>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </Fade>
