@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/hbnu-kilab",
   // linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "parkce@edu.hanbat.ac.kr",
+  gmail: "parkce@hanbat.ac.kr",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
